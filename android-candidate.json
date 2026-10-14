@@ -1,0 +1,17 @@
+{
+  "schema": "android_candidate_v1",
+  "status": "candidate",
+  "version": "1.0.0",
+  "version_code": 13,
+  "apk_url": "research3d-1.0.0.apk",
+  "sha256": "1a2bb2d38f74f525c394416a409d0dbaac8fa8ffd03647b253b904b5fa13125c",
+  "bytes": 173681,
+  "updated": "2026-10-15",
+  "formal_acceptance": "PENDING_REAL_DEVICE",
+  "notes": [
+    "完整自查后的正式版候选；安卓真机验收尚未完成。",
+    "修复异常范围与预测快照的保存/读取校验。",
+    "系统文件导出改为后台写入；原方案保留。",
+    "同一签名升级，Android 8.0及以上，需更新WebView。"
+  ]
+}
