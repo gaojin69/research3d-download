@@ -1,0 +1,23 @@
+{
+  "schema": "windows_release_v1",
+  "platform": "windows",
+  "status": "available",
+  "release_stage": "candidate",
+  "version": "1.0.0",
+  "version_code": 13,
+  "archive_url": "research3d-windows-1.0.0-candidate-20261015.zip",
+  "sha256": "c8e3ff9118079890f2087cccc52a79294bcc05b20e8e6af4fba3dd07a0242fb4",
+  "bytes": 72147332,
+  "updated": "2026-10-15",
+  "minimum_windows": "Windows 10/11 64位；需要Microsoft Edge WebView2",
+  "formal_acceptance": "PENDING_REAL_DEVICE",
+  "signed": false,
+  "source_commit": "36e135422e4aa25ddc828a3c6f328f17e1688219",
+  "notes": [
+    "升级电脑版，使用与安卓1.0.0相同的计算资产。",
+    "大底粘贴、保存、转存及六项新增条件，可以多条件统一缩水。",
+    "15项遗漏、八栏AI参考、模拟试机号和用户反馈入口。",
+    "保留原版研究与旧方案；新旧方案分别保存。",
+    "完整解压ZIP后运行EXE。候选程序未签名，实际设备验收待完成。"
+  ]
+}
