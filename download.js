@@ -1,6 +1,6 @@
 "use strict";
 function basicRelease(v,url,max){return Boolean(v&&typeof v.version==='string'&&/^\d+\.\d+\.\d+$/.test(v.version)&&typeof v[url]==='string'&&/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(v[url])&&typeof v.sha256==='string'&&/^[a-f0-9]{64}$/.test(v.sha256)&&Number.isSafeInteger(v.bytes)&&v.bytes>=1000&&v.bytes<=max);}
-function verifiedRelease(v){return Boolean(basicRelease(v,'apk_url',25*1048576)&&v.status==='available'&&v.apk_url.endsWith('.apk')&&typeof v.minimum_android==='string'&&v.minimum_android.length>0);}
+function verifiedRelease(v){return Boolean(basicRelease(v,'apk_url',25*1048576)&&v.status==='available'&&v.apk_url==='research3d-'+v.version+'.apk'&&Number.isSafeInteger(v.version_code)&&v.version_code>0&&v.version.split('.').every(n=>Number.isSafeInteger(Number(n)))&&typeof v.minimum_android==='string'&&v.minimum_android.length>0);}
 function verifiedCandidate(v){return Boolean(basicRelease(v,'apk_url',25*1048576)&&v.schema==='android_candidate_v1'&&v.status==='candidate'&&v.formal_acceptance==='PENDING_REAL_DEVICE'&&v.apk_url==='research3d-'+v.version+'.apk'&&Number.isSafeInteger(v.version_code)&&v.version_code>0);}
 function verifiedWindows(v){return Boolean(basicRelease(v,'archive_url',100*1048576)&&v.status==='available'&&v.platform==='windows'&&/^research3d-windows-[a-zA-Z0-9._-]+\.zip$/.test(v.archive_url)&&Number.isSafeInteger(v.version_code)&&v.version_code>0&&typeof v.minimum_windows==='string'&&v.minimum_windows.length>0);}
 function createController(doc,request,o){
