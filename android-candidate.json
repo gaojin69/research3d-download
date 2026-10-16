@@ -1,18 +1,18 @@
 {
   "schema": "android_candidate_v1",
   "status": "candidate",
-  "version": "1.0.2",
-  "version_code": 15,
-  "apk_url": "research3d-1.0.2.apk",
-  "sha256": "c9ba61e027dfc70ef17beb2b52b990be46c73daafa9b51db129b32dc522a2446",
-  "bytes": 203041,
+  "version": "1.0.3",
+  "version_code": 16,
+  "apk_url": "research3d-1.0.3.apk",
+  "sha256": "3457cb8bbd5f0b090a8c2981a8395fdca1c1bca1c05aaf65a8491bc5cdcf311f",
+  "bytes": 207205,
   "updated": "2026-10-17",
   "formal_acceptance": "PENDING_REAL_DEVICE",
   "notes": [
-    "新增条件处理方式：保留所选 / 排除所选；手机和电脑同步支持。",
-    "和尾勾选2、5、6：默认1000注中保留为300注，排除为700注。",
-    "支持多条件组合、保存及历史检验；含排除的方案需1.0.2或以后版本读取。",
-    "旧方案保持原计算含义；候选包仍待真实设备验收。",
+    "1.0.3 操作优化试用版，供用户下载安装验收。",
+    "保留 / 排除直接点选，编辑时可展开全部28类条件，已选摘要随时可见。",
+    "缩水结果按实际大底显示保留和排除注数；保存方案和保存为大底明确区分。",
+    "本机已保存方案沿用；Android和Windows实际设备验收尚未完成。",
     "安卓沿用原签名覆盖升级；请勿先卸载，避免删除本机方案。"
   ]
 }
