@@ -3,21 +3,21 @@
   "platform": "windows",
   "status": "available",
   "release_stage": "candidate",
-  "version": "1.0.0",
-  "version_code": 13,
-  "archive_url": "research3d-windows-1.0.0-candidate-20261015.zip",
-  "sha256": "c8e3ff9118079890f2087cccc52a79294bcc05b20e8e6af4fba3dd07a0242fb4",
-  "bytes": 72147332,
-  "updated": "2026-10-15",
+  "version": "1.0.1",
+  "version_code": 14,
+  "archive_url": "research3d-windows-1.0.1-candidate-20261016.zip",
+  "sha256": "7587112155c93ad6d50d3bfdfed0d6a73dcc4b898c3509e038ae3394d76dfe87",
+  "bytes": 72185362,
+  "updated": "2026-10-16",
   "minimum_windows": "Windows 10/11 64位；需要Microsoft Edge WebView2",
   "formal_acceptance": "PENDING_REAL_DEVICE",
   "signed": false,
-  "source_commit": "36e135422e4aa25ddc828a3c6f328f17e1688219",
+  "source_commit": "be6c426021272f5c920e686280882ebd65a1b8ce",
   "notes": [
-    "升级电脑版，使用与安卓1.0.0相同的计算资产。",
-    "大底粘贴、保存、转存及六项新增条件，可以多条件统一缩水。",
-    "15项遗漏、八栏AI参考、模拟试机号和用户反馈入口。",
-    "保留原版研究与旧方案；新旧方案分别保存。",
-    "完整解压ZIP后运行EXE。候选程序未签名，实际设备验收待完成。"
+    "界面与1.0.1手机版预览使用同一套文件；候选包仍待实机验收。",
+    "全部条件目录直接切换，勾选后统一缩水；支持使用说明。",
+    "补回六项组选间距多选，以及全部满足、满足任一、至少满足组合。",
+    "修复使用说明返回键和更新通道提示，旧方案保持原计算含义。",
+    "Windows完整解压到新文件夹运行；原版研究入口保留，程序未签名。"
   ]
 }
