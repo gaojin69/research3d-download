@@ -18,7 +18,7 @@
   ensure(value&&typeof value==='object'&&!Array.isArray(value)&&Object.keys(value).every(k=>['positions','pattern','ranges','snapshot','rules','lottery','positionExcludes','patternExclude'].includes(k)),'草稿条件无效');const c=clone(value);
   ensure(c.lottery===undefined||c.lottery===lottery,'草稿条件彩种不一致');c.lottery=lottery;
   ensure(Array.isArray(c.positions)&&c.positions.every(a=>Array.isArray(a)&&a.length<=10&&new Set(a).size===a.length),'草稿定位无效');
-  if(c.snapshot)ensure(Object.keys(c.snapshot).filter(k=>k!=='exclude').sort().join(',')==='cutoff,key,values,version'&&typeof c.snapshot.cutoff==='string'&&new RegExp('^[0-9]{'+(lottery==='FC3D'?7:5)+'}$').test(c.snapshot.cutoff)&&[C.VERSION,C.LEGACY_VERSION].filter(Boolean).includes(c.snapshot.version),'草稿预测快照元数据无效');
+  if(c.snapshot)ensure(Object.keys(c.snapshot).filter(k=>k!=='exclude').sort().join(',')==='cutoff,key,values,version'&&typeof c.snapshot.cutoff==='string'&&new RegExp('^[0-9]{'+(lottery==='FC3D'?7:5)+'}$').test(c.snapshot.cutoff)&&(C.SUPPORTED_VERSIONS||[C.VERSION,C.LEGACY_VERSION]).filter(Boolean).includes(c.snapshot.version),'草稿预测快照元数据无效');
   const rules=c.rules===undefined?[]:c.rules;ensure(Array.isArray(rules),'草稿分类条件无效');const completed=clone(rules);
   for(const r of completed){const category=A.categoryFor(r);ensure(category,'草稿分类无法恢复');const p=r.params;
    const fillers={digits:[0],counts:[1],values:[0],patterns:['SSS'],pairs:['00']};
