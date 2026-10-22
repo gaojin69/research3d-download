@@ -1,0 +1,366 @@
+{
+  "FC3D": [
+    {
+      "issue": "2026244",
+      "source_issue": "2026244",
+      "date": "2026-09-11",
+      "number": "781"
+    },
+    {
+      "issue": "2026245",
+      "source_issue": "2026245",
+      "date": "2026-09-12",
+      "number": "573"
+    },
+    {
+      "issue": "2026246",
+      "source_issue": "2026246",
+      "date": "2026-09-13",
+      "number": "787"
+    },
+    {
+      "issue": "2026247",
+      "source_issue": "2026247",
+      "date": "2026-09-14",
+      "number": "480"
+    },
+    {
+      "issue": "2026248",
+      "source_issue": "2026248",
+      "date": "2026-09-15",
+      "number": "872"
+    },
+    {
+      "issue": "2026249",
+      "source_issue": "2026249",
+      "date": "2026-09-16",
+      "number": "082"
+    },
+    {
+      "issue": "2026250",
+      "source_issue": "2026250",
+      "date": "2026-09-17",
+      "number": "360"
+    },
+    {
+      "issue": "2026251",
+      "source_issue": "2026251",
+      "date": "2026-09-18",
+      "number": "329"
+    },
+    {
+      "issue": "2026252",
+      "source_issue": "2026252",
+      "date": "2026-09-19",
+      "number": "374"
+    },
+    {
+      "issue": "2026253",
+      "source_issue": "2026253",
+      "date": "2026-09-20",
+      "number": "324"
+    },
+    {
+      "issue": "2026254",
+      "source_issue": "2026254",
+      "date": "2026-09-21",
+      "number": "799"
+    },
+    {
+      "issue": "2026255",
+      "source_issue": "2026255",
+      "date": "2026-09-22",
+      "number": "975"
+    },
+    {
+      "issue": "2026256",
+      "source_issue": "2026256",
+      "date": "2026-09-23",
+      "number": "379"
+    },
+    {
+      "issue": "2026257",
+      "source_issue": "2026257",
+      "date": "2026-09-24",
+      "number": "187"
+    },
+    {
+      "issue": "2026258",
+      "source_issue": "2026258",
+      "date": "2026-09-25",
+      "number": "757"
+    },
+    {
+      "issue": "2026259",
+      "source_issue": "2026259",
+      "date": "2026-09-26",
+      "number": "649"
+    },
+    {
+      "issue": "2026260",
+      "source_issue": "2026260",
+      "date": "2026-09-27",
+      "number": "895"
+    },
+    {
+      "issue": "2026261",
+      "source_issue": "2026261",
+      "date": "2026-09-28",
+      "number": "942"
+    },
+    {
+      "issue": "2026262",
+      "source_issue": "2026262",
+      "date": "2026-09-29",
+      "number": "375"
+    },
+    {
+      "issue": "2026263",
+      "source_issue": "2026263",
+      "date": "2026-09-30",
+      "number": "019"
+    },
+    {
+      "issue": "2026264",
+      "source_issue": "2026264",
+      "date": "2026-10-05",
+      "number": "037"
+    },
+    {
+      "issue": "2026265",
+      "source_issue": "2026265",
+      "date": "2026-10-06",
+      "number": "958"
+    },
+    {
+      "issue": "2026266",
+      "source_issue": "2026266",
+      "date": "2026-10-07",
+      "number": "850"
+    },
+    {
+      "issue": "2026267",
+      "source_issue": "2026267",
+      "date": "2026-10-08",
+      "number": "984"
+    },
+    {
+      "issue": "2026268",
+      "source_issue": "2026268",
+      "date": "2026-10-09",
+      "number": "856"
+    },
+    {
+      "issue": "2026269",
+      "source_issue": "2026269",
+      "date": "2026-10-10",
+      "number": "581"
+    },
+    {
+      "issue": "2026270",
+      "source_issue": "2026270",
+      "date": "2026-10-11",
+      "number": "022"
+    },
+    {
+      "issue": "2026271",
+      "source_issue": "2026271",
+      "date": "2026-10-12",
+      "number": "916"
+    },
+    {
+      "issue": "2026272",
+      "source_issue": "2026272",
+      "date": "2026-10-13",
+      "number": "147"
+    },
+    {
+      "issue": "2026273",
+      "source_issue": "2026273",
+      "date": "2026-10-14",
+      "number": null
+    }
+  ],
+  "PL3": [
+    {
+      "issue": "26244",
+      "source_issue": "2026244",
+      "date": "2026-09-11",
+      "number": "873"
+    },
+    {
+      "issue": "26245",
+      "source_issue": "2026245",
+      "date": "2026-09-12",
+      "number": "113"
+    },
+    {
+      "issue": "26246",
+      "source_issue": "2026246",
+      "date": "2026-09-13",
+      "number": "894"
+    },
+    {
+      "issue": "26247",
+      "source_issue": "2026247",
+      "date": "2026-09-14",
+      "number": "968"
+    },
+    {
+      "issue": "26248",
+      "source_issue": "2026248",
+      "date": "2026-09-15",
+      "number": "181"
+    },
+    {
+      "issue": "26249",
+      "source_issue": "2026249",
+      "date": "2026-09-16",
+      "number": "510"
+    },
+    {
+      "issue": "26250",
+      "source_issue": "2026250",
+      "date": "2026-09-17",
+      "number": "449"
+    },
+    {
+      "issue": "26251",
+      "source_issue": "2026251",
+      "date": "2026-09-18",
+      "number": "198"
+    },
+    {
+      "issue": "26252",
+      "source_issue": "2026252",
+      "date": "2026-09-19",
+      "number": "050"
+    },
+    {
+      "issue": "26253",
+      "source_issue": "2026253",
+      "date": "2026-09-20",
+      "number": "113"
+    },
+    {
+      "issue": "26254",
+      "source_issue": "2026254",
+      "date": "2026-09-21",
+      "number": "810"
+    },
+    {
+      "issue": "26255",
+      "source_issue": "2026255",
+      "date": "2026-09-22",
+      "number": "731"
+    },
+    {
+      "issue": "26256",
+      "source_issue": "2026256",
+      "date": "2026-09-23",
+      "number": "886"
+    },
+    {
+      "issue": "26257",
+      "source_issue": "2026257",
+      "date": "2026-09-24",
+      "number": "079"
+    },
+    {
+      "issue": "26258",
+      "source_issue": "2026258",
+      "date": "2026-09-25",
+      "number": "359"
+    },
+    {
+      "issue": "26259",
+      "source_issue": "2026259",
+      "date": "2026-09-26",
+      "number": "608"
+    },
+    {
+      "issue": "26260",
+      "source_issue": "2026260",
+      "date": "2026-09-27",
+      "number": "465"
+    },
+    {
+      "issue": "26261",
+      "source_issue": "2026261",
+      "date": "2026-09-28",
+      "number": "280"
+    },
+    {
+      "issue": "26262",
+      "source_issue": "2026262",
+      "date": "2026-09-29",
+      "number": "767"
+    },
+    {
+      "issue": "26263",
+      "source_issue": "2026263",
+      "date": "2026-09-30",
+      "number": "123"
+    },
+    {
+      "issue": "26264",
+      "source_issue": "2026264",
+      "date": "2026-10-05",
+      "number": "502"
+    },
+    {
+      "issue": "26265",
+      "source_issue": "2026265",
+      "date": "2026-10-06",
+      "number": "895"
+    },
+    {
+      "issue": "26266",
+      "source_issue": "2026266",
+      "date": "2026-10-07",
+      "number": "015"
+    },
+    {
+      "issue": "26267",
+      "source_issue": "2026267",
+      "date": "2026-10-08",
+      "number": "531"
+    },
+    {
+      "issue": "26268",
+      "source_issue": "2026268",
+      "date": "2026-10-09",
+      "number": "123"
+    },
+    {
+      "issue": "26269",
+      "source_issue": "2026269",
+      "date": "2026-10-10",
+      "number": "035"
+    },
+    {
+      "issue": "26270",
+      "source_issue": "2026270",
+      "date": "2026-10-11",
+      "number": "674"
+    },
+    {
+      "issue": "26271",
+      "source_issue": "2026271",
+      "date": "2026-10-12",
+      "number": "740"
+    },
+    {
+      "issue": "26272",
+      "source_issue": "2026272",
+      "date": "2026-10-13",
+      "number": "782"
+    },
+    {
+      "issue": "26273",
+      "source_issue": "2026273",
+      "date": "2026-10-14",
+      "number": null
+    }
+  ]
+}
