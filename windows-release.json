@@ -5,15 +5,18 @@
   "release_stage": "candidate",
   "version": "1.0.5",
   "version_code": 18,
-  "archive_url": "research3d-windows-1.0.5-candidate-20261022.zip",
-  "sha256": "4996f1237904103dc8d70a59cec2629cdfe3c55014da3500652588a18e06c375",
-  "bytes": 72840565,
-  "updated": "2026-10-22",
+  "archive_url": "research3d-windows-1.0.5-refresh-fix-20261023.zip",
+  "sha256": "c0e062befcb0680939a604f14ce40dd519a22a25746291bf3235efffe9da1070",
+  "bytes": 72841520,
+  "updated": "2026-10-23",
   "minimum_windows": "Windows 10/11 64位；需要Microsoft Edge WebView2",
   "formal_acceptance": "PENDING_REAL_DEVICE",
   "signed": false,
-  "source_commit": "edf5c2642902fdce5852c08720206faa6ecfcb28",
+  "source_commit": "29b093cdf31c859d726ff41bf48bd2fcffc1d829",
   "notes": [
+    "2026-10-23 电脑版刷新修复包，功能和算法仍为1.0.5。",
+    "补齐必需的TLS运行时文件，修复开奖、试机号和版本检查失败。",
+    "关闭旧版，完整解压此ZIP到新文件夹运行；不要只替换EXE。",
     "1.0.5统一方案试用版。",
     "预测区上方显示预测期号，并单独显示依据开奖期。",
     "独胆、双码、四码、五码、六码、精选、直选、组三及两项和值按同一方案生成。",
@@ -21,5 +24,6 @@
     "保留28类缩水条件、保留/排除、大底、保存方案和历史检验。",
     "17500模拟试机号只同步原号码，不参与预测计算。",
     "完整解压到新目录运行；EXE未签名，实机验收尚未完成。"
-  ]
+  ],
+  "build_revision": "20261023-refresh-fix"
 }
